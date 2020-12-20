@@ -77,7 +77,13 @@
     "validator": "^13.5.2"
   },
   "devDependencies": {
+    "@wdio/cli": "^6.10.11",
+    "@wdio/local-runner": "^6.10.13",
+    "@wdio/mocha-framework": "^6.10.11",
+    "@wdio/spec-reporter": "^6.10.6",
+    "@wdio/sync": "^6.10.11",
     "chai": "^4.2.0",
+    "chromedriver": "^87.0.4",
     "eslint": "^7.15.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-chai-friendly": "^0.6.0",
@@ -85,7 +91,8 @@
     "mocha": "^8.2.1",
     "nyc": "^15.1.0",
     "sinon": "^9.2.1",
-    "supertest": "^6.0.1"
+    "supertest": "^6.0.1",
+    "wdio-chromedriver-service": "^6.0.4"
   },
   "engines": {
     "node": ">=10.22.1",
